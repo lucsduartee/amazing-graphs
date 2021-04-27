@@ -1,3 +1,41 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.navegacao li {
+    margin-left: 10px;
+}
+
+.navegacao li a {
+    display: block;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+img {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
